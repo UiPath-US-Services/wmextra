@@ -1,6 +1,6 @@
 {
   "name": "AcmeWorkItemIterator",
-  "description": "REFramework for iterating through a ACME work items.",
+  "description": "REFramework for iterating through a ACME work items. Edit the arguments supplied to ScrapeWorkItems.xaml in LoadTransactionDataTable.xaml to change the work items type to process.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.3]",
