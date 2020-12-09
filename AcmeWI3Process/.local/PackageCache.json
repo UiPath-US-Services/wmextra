@@ -52,6 +52,21 @@
     },
     {
       "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.dll"
+      ],
+      "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities\\3.3.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "20.10.1"
       },
@@ -169,18 +184,18 @@
     },
     {
       "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.3.0"
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities/3.3.0\\lib/net461/UiPath.PDF.dll"
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.Activities.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.pdf.activities\\3.3.0"
+      "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities\\1.6.0"
     }
   ],
   "Conflicts": [],
@@ -653,6 +668,11 @@
         }
       ]
     },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.3.1",
+      "Dependencies": []
+    },
     "SharpZipLib": {
       "Id": "SharpZipLib",
       "Version": "1.2.0",
@@ -1087,6 +1107,24 @@
         {
           "Item1": "UiPath.OCR.Contracts",
           "Item2": "[2.7.1, )"
+        }
+      ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.6.0",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.3.1, )"
         }
       ]
     }
@@ -1544,6 +1582,16 @@
     },
     {
       "Package": {
+        "Id": "RestSharp",
+        "Version": "106.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\restsharp\\106.3.1\\lib\\net452\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\restsharp\\106.3.1"
+    },
+    {
+      "Package": {
         "Id": "SharpZipLib",
         "Version": "1.2.0"
       },
@@ -1844,6 +1892,18 @@
         "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.vision\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.Activities.dll",
+        "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\Keith Emanuel\\.nuget\\packages\\uipath.webapi.activities\\1.6.0"
     }
   ]
 }

@@ -7,7 +7,8 @@
     "UiPath.Mail.Activities": "[1.9.3]",
     "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.UIAutomation.Activities": "[20.10.6]",
+    "UiPath.WebAPI.Activities": "[1.6.0]"
   },
   "webServices": [],
   "entitiesStores": [],
